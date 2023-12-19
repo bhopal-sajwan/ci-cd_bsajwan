@@ -5,7 +5,7 @@ pipeline {
             args '--user 0:0'
         } 
 
-    }
+    } test
     stages {
         stage('Run schemachange') {
             steps {
